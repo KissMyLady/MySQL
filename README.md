@@ -2,7 +2,7 @@ MySQL数据库
 ====
 
 ## :watermelon: 数据库的基本使用
-- [数据库的基本使用]()  
+- [数据库的基本使用](https://github.com/KissMyLady/MySQL/edit/master/Note/1_1.md)  
 
 ## :wrench:  数据库的查询  
 - [数据库的查询]()  
