@@ -18,6 +18,8 @@ MySQL数据库
 
 ### 排版  
 
+- [GitHub排版教程]()  
+
 笔记内容按照 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 进行排版，以保证内容的可读性。  
 
 不使用 `<img>` 这种方式来引用图片，而是用 `![]()` 标签，一方面够用，另一方面，今后可能也会采用这种方法居中显示图片。  
