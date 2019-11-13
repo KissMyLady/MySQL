@@ -6,7 +6,7 @@ from pymysql import *
 
 def main():
     # 创建Connection连接
-    conn = connect(host='localhost',port=3306,database='jing_dong',user='root',password='mysql',charset='utf8')
+    conn = connect(host='localhost',port=3306,database='shop_data',user='root',password='mysql',charset='utf8')
     # 获得Cursor对象
     cs1 = conn.cursor()
     # 执行insert语句，并返回受影响的行数：添加一条数据
@@ -45,7 +45,7 @@ from pymysql import *
 
 def main():
     # 创建Connection连接
-    conn = connect(host='localhost',port=3306,user='root',password='mysql',database='jing_dong',charset='utf8')
+    conn = connect(host='localhost',port=3306,user='root',password='mysql',database='shop_data',charset='utf8')
     # 获得Cursor对象
     cs1 = conn.cursor()
     # 执行select语句，并返回受影响的行数：查询一条数据
@@ -74,7 +74,7 @@ from pymysql import *
 
 def main():
     # 创建Connection连接
-    conn = connect(host='localhost',port=3306,user='root',password='mysql',database='jing_dong',charset='utf8')
+    conn = connect(host='localhost',port=3306,user='root',password='mysql',database='shop_data',charset='utf8')
     # 获得Cursor对象
     cs1 = conn.cursor()
     # 执行select语句，并返回受影响的行数：查询一条数据
