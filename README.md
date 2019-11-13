@@ -11,7 +11,7 @@ MySQL数据库
 ## :pencil2: MySQL与Python交互  
 - [Python对数据库的基本操作](https://github.com/KissMyLady/MySQL/blob/master/Note/py_mysql1.md)  
 - [OOP实现Pthon操作MySQL](https://github.com/KissMyLady/MySQL/blob/master/Note/OOP_SQL.md)  
-- [防数据库被入侵]()  
+- [防数据库被入侵](https://github.com/KissMyLady/MySQL/blob/master/Note/mysql_defense1.md)  
 
 ## :bulb: MySQL高级使用  
 - [MySQL高级使用]()  
