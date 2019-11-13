@@ -9,7 +9,7 @@ MySQL数据库
 
 
 ## :pencil2: MySQL与Python交互  
-- [MySQL与Python交互]()  
+- [MySQL与Python交互](https://github.com/KissMyLady/MySQL/blob/master/Note/OOP_SQL.md)  
 
 
 ## :bulb: MySQL高级使用  
