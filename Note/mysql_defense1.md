@@ -13,7 +13,7 @@ def main():
     find_name = input("请输入物品名称：")
 
     # 创建Connection连接
-    conn = connect(host='localhost',port=3306,user='root',password='mysql',database='jing_dong',charset='utf8')
+    conn = connect(host='localhost',port=3306,user='root',password='mysql',database='shops',charset='utf8')
     # 获得Cursor对象
     cs1 = conn.cursor()
 
