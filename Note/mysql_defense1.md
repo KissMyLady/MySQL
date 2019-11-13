@@ -155,3 +155,61 @@ if __name__ == '__main__':
 
 ```
 
+## 案例  
+### Simple SQL Injection Example  
+The first example is very simple.   
+It shows, how an attacker can use an SQL Injection vulnerability to go around application security and authenticate as the administrator.  
+
+The following script is pseudocode executed on a web server.  
+It is a simple example of authenticating with a username and a password.  
+The example database has a table named users with the following columns: username and password.  
+```Python
+# Define POST variables
+uname = request.POST['username']
+passwd = request.POST['password']
+
+# SQL query vulnerable to SQLi
+sql = “SELECT id FROM users WHERE username=’” + uname + “’ AND password=’” + passwd + “’”
+
+# Execute the SQL statement
+database.execute(sql)
+```
+
+These input fields are vulnerable to SQL Injection.  
+An attacker could use SQL commands in the input in a way that would alter the SQL statement executed by the database server.   
+For example, they could use a trick involving a single quote and set the `passwd` field to:  
+```Python
+password' OR 1=1
+```
+
+As a result, the database server runs the following SQL query:  
+```Python
+SELECT id FROM users WHERE username='username' AND password='password' OR 1=1'  
+```
+
+Because of the `OR 1=1` statement, the `WHERE` clause returns the first `id` from the `users` table no matter what the `username` and `password` are. The first user `id` in a database is very often the administrator.   
+In this way, the attacker not only bypasses authentication but also gains administrator privileges.   
+They can also comment out the rest of the SQL statement to control the execution of the SQL query further:  
+```Python
+-- MySQL, MSSQL, Oracle, PostgreSQL, SQLite
+' OR '1'='1' --
+' OR '1'='1' /*
+-- MySQL
+' OR '1'='1' #
+-- Access (using null characters)
+' OR '1'='1' %00
+' OR '1'='1' %16
+```
+
+## How to Prevent an SQL Injection  
+The only sure way to prevent SQL Injection attacks is input validation and parametrized queries including prepared statements.   
+The application code should never use the input directly. The developer must sanitize all input,   
+not only web form inputs such as login forms. They must remove potential malicious code elements such as single quotes.   
+It is also a good idea to turn off the visibility of database errors on your production sites.   
+Database errors can be used with SQL Injection to gain information about your database.  
+
+If you discover an SQL Injection vulnerability, for example using an Acunetix scan,   
+you may be unable to fix it immediately. For example, the vulnerability may be in open source code.   
+In such cases, you can use a web application firewall to sanitize your input temporarily.  
+
+
