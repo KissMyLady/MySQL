@@ -18,7 +18,7 @@ MySQL数据库
 
 ### 排版  
 
-- [GitHub排版教程]()  
+- [GitHub排版教程](https://github.com/KissMyLady/MySQL/blob/master/Note/typesetting.md)  
 
 笔记内容按照 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 进行排版，以保证内容的可读性。  
 
