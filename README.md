@@ -14,7 +14,7 @@ MySQL数据库
 - [防数据库被入侵](https://github.com/KissMyLady/MySQL/blob/master/Note/mysql_defense1.md)  
 
 ## :bulb: MySQL高级使用  
-- [MySQL视图]() 
+- [MySQL视图](https://github.com/KissMyLady/MySQL/blob/master/Note/see_photo.md)  
 - [MySQL事务]()  
 - [MySQL索引]()  
 - [MySQL账户管理]()  
