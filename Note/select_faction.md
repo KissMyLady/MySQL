@@ -4,7 +4,7 @@ SQL中的聚合函数
 ## 聚合函数  
 为了快速得到统计数据，经常会用到如下5个聚合函数  
 
-## 总数  
+## 总 数  
 - count(*)表示计算总行数，括号中写星与列名，结果是相同的  
 例1：查询学生总数  
 ```SQL
@@ -25,7 +25,7 @@ select max(id) from students where gender=2;
 select min(id) from students where is_delete=0;
 ```
 
-## 求和  
+## 求 和  
 - sum(列)表示求此列的和
 例4：查询男生的总年龄
 ```SQL
