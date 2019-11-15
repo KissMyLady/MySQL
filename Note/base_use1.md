@@ -31,8 +31,37 @@ prompt python>
 - \U 使用用户  
 
 
+数据库
+==== 
 
+- 查看所有数据库  
+```SQL 
+show databases;
+```
 
+- 使用数据库
+```SQL 
+use 数据库名;
+```
+
+- 查看当前使用的数据库
+```SQL 
+select database();
+```
+
+- 创建数据库
+```SQL 
+create database 数据库名 charset=utf8;
+例：
+create database python charset=utf8;
+```
+
+- 删除数据库
+```SQL 
+drop database 数据库名;
+例：
+drop database python;
+```
 
 
 
