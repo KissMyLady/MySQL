@@ -12,6 +12,8 @@ MySQL数据库
 - [数据库的条件查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_where.md)   
 - [数据库的排序查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_order_by.md)  
 - [SQL中的聚合函数](https://github.com/KissMyLady/MySQL/blob/master/Note/select_faction.md)  
+- [数据库的分组查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_gorup_by.md)  
+- [SQL中的limit方法](https://github.com/KissMyLady/MySQL/blob/master/Note/select_limit.md)  
 
 
 ## :pencil2: MySQL与Python交互  
