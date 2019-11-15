@@ -18,7 +18,7 @@ MySQL数据库
 - [MySQL事务](https://github.com/KissMyLady/MySQL/blob/master/Note/someting_do.md)   
 - [MySQL索引](https://github.com/KissMyLady/MySQL/blob/master/Note/sql_index.md)   
 - [MySQL账户管理](https://github.com/KissMyLady/MySQL/blob/master/Note/count_control.md)   
-
+- [MySQL主从]()
 
 ### 排版  
 
