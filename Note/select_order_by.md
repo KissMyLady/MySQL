@@ -28,7 +28,16 @@ select * from students where is_delete=0 order by name;
 select * from students  order by age desc,height desc;  
 ```
 
-
+## 看完了  
+- [返回MySQL主页](https://github.com/KissMyLady/MySQL/blob/master/README.md)
+- [数据库的基本查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_from_databases1.md)  
+- [数据库的条件查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_where.md)   
+- [SQL中的聚合函数](https://github.com/KissMyLady/MySQL/blob/master/Note/select_faction.md)  
+- [数据库的分组查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_gorup_by.md)  
+- [SQL中的limit方法](https://github.com/KissMyLady/MySQL/blob/master/Note/select_limit.md)  
+- [SQL中的合并表查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_join_on.md)  
+- [一表多用--自关联](https://github.com/KissMyLady/MySQL/blob/master/Note/select_self_knot.md)  
+- [数据库的子查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_son_find.md) 
 
 
 
