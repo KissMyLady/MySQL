@@ -190,4 +190,87 @@ flush privileges
 ## 3. 忘记 root 账户密码怎么办 !!  
 一般也轮不到我们来管理 root 账户,所以别瞎卖白粉的心了  
 万一呢? 到时候再来查http://blog.csdn.net/lxpbs8851/article/details/10895085  
+```SQL
+skip-grant-tables
+顾名思义，数据库启动的时候 跳跃权限表的限制，不用验证密码，直接登录。
+
+注意：
+
+这种情况只有在忘记root密码 不得已重启数据库的情况下使用的。现网环境慎用，需要重启数据库，并且安全性也比较难以保证。
+
+1.修改配置参数
+
+/etc/my.cnf
+
+在
+
+[mysqld] 下面加上:
+
+skip-grant-tables
+配置项。
+
+2.重启mysql
+
+使得参数生效：
+
+service mysqld restart
+
+3.注意事项
+
+此时所有用户登录当前数据库都是免密码的，所以此时数据库的安全性是非常低的。
+
+4.修改密码
+
+具体的办法：
+
+   1.密码的初始化
+
+   刚安装好的mysql root 的密码默认的空的
+
+   /app/mysql/ 为mysql的安装目录。
+
+   先执行：
+
+   /app/mysql/bin/mysqladmin -u root password  test_password
+
+   然后登陆mysql
+
+   mysql -uroot -ptest_password
+
+   执行：
+
+   mysql>flush privileges;
+
+
+
+   2.修改密码方法一
+
+   /app/mysql/bin/mysqladmin -uroot -ptest_password   password new_password
+
+   然后登陆mysql
+
+   mysql -uroot -pnew_password
+
+   执行：
+
+   mysql>flush privileges;
+
+
+
+   3.修改密码方法二
+
+   然后登陆mysql
+
+   mysql -uroot -pnew_password
+
+   mysql> update mysql.user set password=password('test_new2_password') where user= 'root';
+       mysql> FLUSH PRIVILEGES;
+
+
+5.去掉参数
+
+a.密码修改好了之后再将配置文件中 skip-grant-tables去掉
+
+b.再次重启数据库。
+```
 
