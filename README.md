@@ -16,7 +16,7 @@ MySQL数据库
 ## :bulb: MySQL高级使用  
 - [MySQL视图](https://github.com/KissMyLady/MySQL/blob/master/Note/see_photo.md)  
 - [MySQL事务](https://github.com/KissMyLady/MySQL/blob/master/Note/someting_do.md)   
-- [MySQL索引]()  
+- [MySQL索引](https://github.com/KissMyLady/MySQL/blob/master/Note/sql_index.md)   
 - [MySQL账户管理]()  
 
 
