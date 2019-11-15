@@ -8,8 +8,9 @@ MySQL数据库
 - [数据库规划与设计](https://github.com/KissMyLady/MySQL/blob/master/Note/design_databases.md)  
 
 ## :wrench:  数据库的查询  
-- [数据库的查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_from_databases1.md)  
-
+- [数据库的基本查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_from_databases1.md)  
+- [数据库的条件查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_where.md)   
+- [数据库的排序查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_order_by.md)  
 
 ## :pencil2: MySQL与Python交互  
 - [Python对数据库的基本操作](https://github.com/KissMyLady/MySQL/blob/master/Note/py_mysql1.md)  
