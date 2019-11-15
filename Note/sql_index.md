@@ -32,6 +32,8 @@
 
 ## 5. 索引原理  
 除了词典，生活中随处可见索引的例子，如火车站的车次表、图书的目录等。它们的原理都是一样的，通过不断的缩小想要获得数据的范围来筛选出最终想要的结果，同时把随机的事件变成顺序的事件，也就是我们总是通过同一种查找方式来锁定数据。
+![index_principle](https://github.com/KissMyLady/MySQL/blob/master/Img/index01.jpg)  
+
 
 数据库也是一样，但显然要复杂许多，因为不仅面临着等值查询，
 还有范围查询(>、<、between、in)、模糊查询(like)、并集查询(or)等等。  
@@ -81,6 +83,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```    
+![sql_python](https://github.com/KissMyLady/MySQL/blob/master/Img/index1.jpg)  
 
 ### 7.3. 查询  
 - 开启运行时间监测：  
@@ -113,7 +116,8 @@ select * from test_index where title='ha-99999';
 ```SQL
 show profiles;
 ```
-
+时间对比如下。高性能电脑这个等级差距还可以进一步拉大，本人自动电脑CPU i5 7500。  
+![show_profiels](https://github.com/KissMyLady/MySQL/blob/master/Img/index7.jpg)  
 
 ## 8. 注意：  
 > 要注意的是，建立太多的索引将会影响更新和插入的速度，因为它需要同样更新每个索引文件。
