@@ -5,8 +5,7 @@
 ## 增删改查(curd)  
 curd的解释: 代表创建（Create）、更新（Update）、读取（Retrieve）和删除（Delete）  
 
-查询基本使用
-查询所有列
+## 查 询  
 ```SQL
 select * from 表名;
 例：
