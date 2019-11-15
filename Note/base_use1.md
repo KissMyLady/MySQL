@@ -64,7 +64,86 @@ drop database python;
 ```
 
 
+数据表  
+==== 
+
+- 查看当前数据库中所有表
+show tables;
+
+- 查看表结构
+desc 表名;
+创建表
+```SQL
+auto_increment表示自动增长
+CREATE TABLE table_name(
+    column1 datatype contrai,
+    column2 datatype,
+    column3 datatype,
+    .....
+    columnN datatype,
+    PRIMARY KEY(one or more columns)
+);
+```
+
+- 例：创建班级表
+```SQL
+create table classes(
+    id int unsigned auto_increment primary key not null,
+    name varchar(10)
+);
+```
+
+- 例：创建学生表
+```SQL
+create table students(
+    id int unsigned primary key auto_increment not null,
+    name varchar(20) default '',
+    age tinyint unsigned default 0,
+    height decimal(5,2),
+    gender enum('男','女','人妖','保密'),
+    cls_id int unsigned default 0
+)
+```
+
+- 修改表-添加字段  
+```SQL
+alter table 表名 add 列名 类型;
+例：
+alter table students add birthday datetime;
+```
 
 
+- 修改表-修改字段：重命名版  
+```SQL
+alter table 表名 change 原名 新名 类型及约束;
+例：
+alter table students change birthday birth datetime not null;
+``` 
 
+- 修改表-修改字段：不重命名版
+```SQL
+alter table 表名 modify 列名 类型及约束;
+例：
+alter table students modify birth date not null;
+```
 
+- 修改表-删除字段
+```SQL
+alter table 表名 drop 列名;
+例：
+alter table students drop birthday;
+```
+
+- 删除表
+```SQL
+drop table 表名;
+例：
+drop table students;
+```
+
+- 查看表的创建语句
+```SQL
+show create table 表名;
+例：
+show create table classes;
+```
