@@ -51,7 +51,7 @@ insert into students(name) values('杨康'),('杨过'),('小龙女');
 ```
 
 ## 修 改  
-格式: UPDATE tbname SET col1={expr1|DEFAULT} [,col2={expr2|default}]...[where 条件判断]
+> 格式: UPDATE tbname SET col1={expr1|DEFAULT} [,col2={expr2|default}]...[where 条件判断]
 ```SQL
 update 表名 set 列1=值1,列2=值2... where 条件
 例：
