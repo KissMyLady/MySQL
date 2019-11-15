@@ -42,29 +42,29 @@
 
 
 ## 不遵循1NF  
-![]()
+![1](https://github.com/KissMyLady/MySQL/blob/master/Img/design1.png)
 
 ## 不遵循2NF  
-![]()  
+![2](https://github.com/KissMyLady/MySQL/blob/master/Img/design2.png)  
 
 ## 不遵循3NF  
-![]()  
+![3](https://github.com/KissMyLady/MySQL/blob/master/Img/design3.png)  
 
 ## 最终表  
-
+![4](https://github.com/KissMyLady/MySQL/blob/master/Img/design4.png)  
 
 ## E-R模型  
 - E表示entry，实体，设计实体就像定义一个类一样，指定从哪些方面描述对象，一个实体转换为数据库中的一个表  
 - R表示relationship，关系，关系描述两个实体之间的对应规则，关系的类型包括包括一对一、一对多、多对多  
 - 关系也是一种数据，需要通过一个字段存储在表中  
 - 实体A对实体B为1对1，则在表A或表B中创建一个字段，存储另一个表的主键值  
-![]()  
+![5](https://github.com/KissMyLady/MySQL/blob/master/Img/design5.png)  
 
 - 实体A对实体B为1对多：在表B中创建一个字段，存储表A的主键值  
-![]()  
+![6](https://github.com/KissMyLady/MySQL/blob/master/Img/design6.png)  
 
 - 实体A对实体B为多对多：新建一张表C，这个表只有两个字段，一个用于存储A的主键值，一个用于存储B的主键值  
-![]()  
+![7](https://github.com/KissMyLady/MySQL/blob/master/Img/design7.png)  
 
 - 想一想：举些例子，满足一对一、一对多、多对多的对应关系
 
