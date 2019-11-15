@@ -7,7 +7,7 @@ SQL中的聚合函数
 ## 总数  
 - count(*)表示计算总行数，括号中写星与列名，结果是相同的  
 例1：查询学生总数  
-``SQL
+```SQL
 select count(*) from students;
 ```
 
@@ -24,6 +24,7 @@ select max(id) from students where gender=2;
 ```SQL
 select min(id) from students where is_delete=0;
 ```
+
 ## 求和  
 - sum(列)表示求此列的和
 例4：查询男生的总年龄
