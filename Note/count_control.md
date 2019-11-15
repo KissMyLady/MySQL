@@ -139,7 +139,7 @@ update user set authentication_string=password('123') where user='laowang';
 ```SQL
 vim /etc/mysql/mysql.conf.d/mysqld.cnf
 ```
-![]()  
+![count1](https://github.com/KissMyLady/MySQL/blob/master/Img/count_contrl1.png)  
 
 然后重启msyql  
 ```SQL
@@ -147,7 +147,7 @@ service mysql restart
 ```
 
 在另外一台Ubuntu中进行连接测试  
-![]()  
+![count2](https://github.com/KissMyLady/MySQL/blob/master/Img/count_1.png)  
 
 如果依然连不上，可能原因：  
 
