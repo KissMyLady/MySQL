@@ -3,6 +3,7 @@ MySQL数据库
 
 ## :watermelon: 数据库的基本使用
 - [数据库的基本使用](https://github.com/KissMyLady/MySQL/blob/master/Note/base_use1.md)  
+- [增删改查](https://github.com/KissMyLady/MySQL/blob/master/Note/add_del_change_select.md)  
 
 ## :wrench:  数据库的查询  
 - [数据库的查询]()  
