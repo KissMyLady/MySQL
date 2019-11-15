@@ -44,3 +44,14 @@ select * from students where (height,age) = (select max(height),max(age) from st
 * in 范围
   * 格式: 主查询 where 条件 in (列子查询)
 
+## 看完了  
+- [返回MySQL主页](https://github.com/KissMyLady/MySQL/blob/master/README.md)
+- [数据库的基本查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_from_databases1.md)  
+- [数据库的条件查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_where.md)   
+- [数据库的排序查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_order_by.md)  
+- [SQL中的聚合函数](https://github.com/KissMyLady/MySQL/blob/master/Note/select_faction.md)  
+- [数据库的分组查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_gorup_by.md)  
+- [SQL中的limit方法](https://github.com/KissMyLady/MySQL/blob/master/Note/select_limit.md)  
+- [SQL中的合并表查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_join_on.md)  
+- [一表多用--自关联](https://github.com/KissMyLady/MySQL/blob/master/Note/select_self_knot.md)  
+- [下一章：Python对数据库的基本操作](https://github.com/KissMyLady/MySQL/blob/master/Note/py_mysql1.md) 
