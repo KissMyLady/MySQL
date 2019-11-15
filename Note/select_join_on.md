@@ -7,13 +7,13 @@ SQL中的合并表查询
 mysql支持三种类型的连接查询，分别为：  
 
   * 内连接查询：查询的结果为两个表匹配到的数据  
-![]()  
+![1](https://github.com/KissMyLady/MySQL/blob/master/Img/join_on1.png)  
 
   * 右连接查询：查询的结果为两个表匹配到的数据，右表特有的数据，对于左表中不存在的数据使用null填充  
-![]() 
+![2](https://github.com/KissMyLady/MySQL/blob/master/Img/join_on2.png) 
 
   * 左连接查询：查询的结果为两个表匹配到的数据，左表特有的数据，对于右表中不存在的数据使用null填充  
-![]() 
+![3](https://github.com/KissMyLady/MySQL/blob/master/Img/join_on32.png) 
   
 
 ## 语 法  
