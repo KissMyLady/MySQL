@@ -15,6 +15,9 @@ MySQL数据库
 - [数据库的分组查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_gorup_by.md)  
 - [SQL中的limit方法](https://github.com/KissMyLady/MySQL/blob/master/Note/select_limit.md)  
 - [SQL中的合并表查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_join_on.md)  
+- [一表多用--自关联](https://github.com/KissMyLady/MySQL/blob/master/Note/select_self_knot.md)  
+- [数据库的子查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_son_find.md)  
+ 
 
 ## :pencil2: MySQL与Python交互  
 - [Python对数据库的基本操作](https://github.com/KissMyLady/MySQL/blob/master/Note/py_mysql1.md)  
