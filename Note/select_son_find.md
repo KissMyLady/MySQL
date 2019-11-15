@@ -24,6 +24,7 @@
 ```SQL
 select * from students where age > (select avg(age) from students);
 ```
+
 ## 列级子查询  
 * 查询还有学生在班的所有班级名字
   * 1、找出学生表中所有的班级 id
@@ -31,22 +32,15 @@ select * from students where age > (select avg(age) from students);
 ```SQL
 select name from classes where id in (select cls_id from students);
 ```
+
 ## 行级子查询  
 - 需求: 查找班级年龄最大,身高最高的学生
 - 行元素: 将多个字段合成一个行元素,在行级子查询中会使用到行元素
 ```SQL
 select * from students where (height,age) = (select max(height),max(age) from students);
-``
+```
 
 ## 子查询中特定关键字使用  
 * in 范围
   * 格式: 主查询 where 条件 in (列子查询)
-
-
-
-
-
-
-
-
 
