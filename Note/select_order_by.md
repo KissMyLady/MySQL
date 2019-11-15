@@ -5,8 +5,10 @@
 为了方便查看数据，可以对数据进行排序  
 
 ## 语 法：
-select * from 表名 order by 列1 asc|desc [,列2 asc|desc,...]
-  
+```SQL
+select * from 表名 order by 列1 asc | desc [,列2 asc|desc,...]
+ ```
+ 
 ## 说 明  
 - 将行数据按照列1进行排序，如果某些行列1的值相同时，则按照列2排序，以此类推  
 - 默认按照列值从小到大排列（asc）  
