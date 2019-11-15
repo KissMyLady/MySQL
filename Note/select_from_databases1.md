@@ -1,7 +1,7 @@
 数据库的查询  
 ====
 
-- 查询所有字段  
+## 查询所有字段  
 ```SQL
 select * from 表名;
 例：
@@ -17,7 +17,6 @@ select name from students;
 ## 使用 as 给字段起别名  
 ```SQL
 select id as 序号, name as 名字, gender as 性别 from students;
-```
 
 - 可以通过 as 给表起别名
 -- 如果是单表查询 可以省略表明
