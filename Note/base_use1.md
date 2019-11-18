@@ -31,7 +31,8 @@ Sun公司后来又被Oracle公司收购，目前属于Oracle旗下产品
 > 开源 免费 不要钱 使用范围广,跨平台支持性好,提供了多种语言调用的 API  
 > 是学习数据库开发的首选  
 
-RDBMS  
+## RDBMS    
+![12](https://github.com/KissMyLady/MySQL/blob/master/Img/mysql_structure.jpg)
 > Relational Database Management System  
 - 当前主要使用两种类型的数据库：关系型数据库、非关系型数据库，我们主要讨论关系型数据库，对于非关系型数据库,请看后面介绍
 - 所谓的关系型数据库RDBMS，是建立在关系模型基础上的数据库，借助于集合代数等数学概念和方法来处理数据库中的数据
