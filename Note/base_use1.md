@@ -1,6 +1,5 @@
 数据库的基本使用  
 ====
-
 ## 数据库介绍  
 - [MySQL官方网站](https://www.mysql.com/)  
 
@@ -9,7 +8,6 @@
 - 支持多种操作系统，如Linux、Windows、AIX、FreeBSD、HP-UX、MacOS、NovellNetware、OpenBSD、OS/2 Wrap、Solaris等  
 - 为多种编程语言提供了API，如C、C++、Python、Java、Perl、PHP、Eiffel、Ruby等  
 - 支持多线程，充分利用CPU资源  
-
 - 优化的SQL查询算法，有效地提高查询速度  
 - 提供多语言支持，常见的编码如GB2312、BIG5、UTF8  
 - 提供TCP/IP、ODBC和JDBC等多种数据库连接途径  
@@ -57,6 +55,8 @@ Sun公司后来又被Oracle公司收购，目前属于Oracle旗下产品
 - 熟练编写，增删改查  
 - 在Python中操作数据库  
 
+
+
 都坐下，基本操作    
 ====
 ## 命令行连接  
@@ -73,21 +73,17 @@ quit 和 exit
 或
 ctrl+d
 ```  
-
 - 登录成功后，输入如下命令查看效果  
 ```SQL   
 查看版本：select version();
 显示当前时间：select now();
 ```
-
 ##  修改输入提示符  
 ```SQL 
 prompt python>
 ```
-
 - \D 完整日期  
 - \U 使用用户  
-
 
 数据库
 ==== 
@@ -96,24 +92,20 @@ prompt python>
 ```SQL 
 show databases;
 ```
-
 - 使用数据库
 ```SQL 
 use 数据库名;
 ```
-
 - 查看当前使用的数据库
 ```SQL 
 select database();
 ```
-
 - 创建数据库
 ```SQL 
 create database 数据库名 charset=utf8;
 例：
 create database python charset=utf8;
 ```
-
 - 删除数据库
 ```SQL 
 drop database 数据库名;
@@ -124,9 +116,10 @@ drop database python;
 
 数据表  
 ==== 
-
 - 查看当前数据库中所有表
+```SQL
 show tables;
+```
 
 - 查看表结构
 desc 表名;
@@ -169,7 +162,6 @@ alter table 表名 add 列名 类型;
 例：
 alter table students add birthday datetime;
 ```
-
 
 - 修改表-修改字段：重命名版  
 ```SQL
