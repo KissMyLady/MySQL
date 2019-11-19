@@ -8,7 +8,7 @@ MySQL数据库
 - [数据库规划与设计](https://github.com/KissMyLady/MySQL/blob/master/Note/design_databases.md)  
 
 ## :wrench:  数据库的查询  
-- [总 结]()  
+- [数据库的查询总结]()  
 - [基本查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_from_databases1.md)  
 - [条件](https://github.com/KissMyLady/MySQL/blob/master/Note/select_where.md)   
 - [排序](https://github.com/KissMyLady/MySQL/blob/master/Note/select_order_by.md)  
@@ -21,13 +21,13 @@ MySQL数据库
  
 
 ## :pencil2: MySQL与Python交互  
-- [总 结]()  
+- [Python交互总结]()  
 - [Python对数据库的基本操作](https://github.com/KissMyLady/MySQL/blob/master/Note/py_mysql1.md)  
 - [OOP实现Pthon操作MySQL](https://github.com/KissMyLady/MySQL/blob/master/Note/OOP_SQL.md)  
 - [防数据库被入侵](https://github.com/KissMyLady/MySQL/blob/master/Note/mysql_defense1.md)  
 
 ## :bulb: MySQL高级使用  
-- [总 结]()  
+- [MySQL高级使用总结]()  
 - [MySQL视图](https://github.com/KissMyLady/MySQL/blob/master/Note/see_photo.md)  
 - [MySQL事务](https://github.com/KissMyLady/MySQL/blob/master/Note/someting_do.md)   
 - [MySQL索引](https://github.com/KissMyLady/MySQL/blob/master/Note/sql_index.md)   
