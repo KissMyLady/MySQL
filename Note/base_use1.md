@@ -54,8 +54,7 @@ Sun公司后来又被Oracle公司收购，目前属于Oracle旗下产品
 ## 先来个小目标  
 - 熟练编写，增删改查  
 - 在Python中操作数据库  
-
-
+![databases_summary]()
 
 都坐下，基本操作    
 ====
@@ -197,3 +196,4 @@ show create table 表名;
 例：
 show create table classes;
 ```
+![databases_commed]()  
