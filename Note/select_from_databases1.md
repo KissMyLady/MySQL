@@ -38,7 +38,6 @@ select distinct gender from students;
 ```
 
 ## 看完了  
-- [数据库的查询总结](https://github.com/KissMyLady/MySQL/blob/master/Note/summary2.md)   
 - [基本查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_from_databases1.md)  
 - [条件](https://github.com/KissMyLady/MySQL/blob/master/Note/select_where.md)   
 - [排序](https://github.com/KissMyLady/MySQL/blob/master/Note/select_order_by.md)  
