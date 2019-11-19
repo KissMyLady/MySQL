@@ -4,7 +4,7 @@
 ![idea_mysql_find1](https://github.com/KissMyLady/MySQL/blob/master/Img/diea_mysql_find1.jpg)  
 
 ## 条件查询总结  
-![idea_mysql_find2](https://github.com/KissMyLady/MySQL/blob/master/Img/diea_mysql_find2.jpg)  
+![idea_mysql_find2](https://github.com/KissMyLady/MySQL/blob/master/Img/diea_mysql_find2.png)  
 
 ## 排序  
 ![idea_mysql_find3](https://github.com/KissMyLady/MySQL/blob/master/Img/diea_mysql_find3.jpg)  
@@ -13,7 +13,7 @@
 ![idea_mysql_find4](https://github.com/KissMyLady/MySQL/blob/master/Img/diea_mysql_find4.jpg)  
 
 ## 分组  
-![idea_mysql_find5](https://github.com/KissMyLady/MySQL/blob/master/Img/diea_mysql_find5.jpg)  
+![idea_mysql_find5](https://github.com/KissMyLady/MySQL/blob/master/Img/diea_mysql_find5.png)  
 
 ## 分页  
 无
