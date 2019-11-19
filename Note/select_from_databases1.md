@@ -38,16 +38,17 @@ select distinct gender from students;
 ```
 
 ## 看完了  
-- [返回MySQL主页](https://github.com/KissMyLady/MySQL/blob/master/README.md)
-- [数据库的条件查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_where.md)   
-- [数据库的排序查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_order_by.md)  
-- [SQL中的聚合函数](https://github.com/KissMyLady/MySQL/blob/master/Note/select_faction.md)  
-- [数据库的分组查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_gorup_by.md)  
-- [SQL中的limit方法](https://github.com/KissMyLady/MySQL/blob/master/Note/select_limit.md)  
-- [SQL中的合并表查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_join_on.md)  
+- [数据库的查询总结](https://github.com/KissMyLady/MySQL/blob/master/Note/summary2.md)   
+- [基本查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_from_databases1.md)  
+- [条件](https://github.com/KissMyLady/MySQL/blob/master/Note/select_where.md)   
+- [排序](https://github.com/KissMyLady/MySQL/blob/master/Note/select_order_by.md)  
+- [聚合函数](https://github.com/KissMyLady/MySQL/blob/master/Note/select_faction.md)  
+- [分组](https://github.com/KissMyLady/MySQL/blob/master/Note/select_gorup_by.md)  
+- [分页](https://github.com/KissMyLady/MySQL/blob/master/Note/select_limit.md)  
+- [连接表](https://github.com/KissMyLady/MySQL/blob/master/Note/select_join_on.md)  
 - [一表多用--自关联](https://github.com/KissMyLady/MySQL/blob/master/Note/select_self_knot.md)  
-- [数据库的子查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_son_find.md) 
-
-
+- [子查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_son_find.md)  
+- [数据库查询全总结](https://github.com/KissMyLady/MySQL/blob/master/Note/summary2.md) 
+- [返回MySQL主页](https://github.com/KissMyLady/MySQL/blob/master/README.md)
 
 
