@@ -27,7 +27,14 @@
 ## 子查询  
 ![idea_mysql_find9](https://github.com/KissMyLady/MySQL/blob/master/Img/diea_mysql_find9.jpg)  
 
-## 以上  
-![idea_mysql_find_all](https://github.com/KissMyLady/MySQL/blob/master/Img/diea_mysql_find_all.jpg)
-
-## 看完了  
+## 看完了    
+- [基本查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_from_databases1.md)  
+- [条件](https://github.com/KissMyLady/MySQL/blob/master/Note/select_where.md)   
+- [排序](https://github.com/KissMyLady/MySQL/blob/master/Note/select_order_by.md)  
+- [聚合函数](https://github.com/KissMyLady/MySQL/blob/master/Note/select_faction.md)  
+- [分组](https://github.com/KissMyLady/MySQL/blob/master/Note/select_gorup_by.md)  
+- [分页](https://github.com/KissMyLady/MySQL/blob/master/Note/select_limit.md)  
+- [连接表](https://github.com/KissMyLady/MySQL/blob/master/Note/select_join_on.md)  
+- [一表多用--自关联](https://github.com/KissMyLady/MySQL/blob/master/Note/select_self_knot.md)  
+- [子查询](https://github.com/KissMyLady/MySQL/blob/master/Note/select_son_find.md)  
+- [返回主页](https://github.com/KissMyLady/MySQL)
