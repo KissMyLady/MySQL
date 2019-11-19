@@ -68,3 +68,10 @@ delete from students where id=5;
 ```SQL
 update students set isdelete=1 where id=1;
 ```
+
+## 看完了  
+- [数据库的基本使用](https://github.com/KissMyLady/MySQL/edit/master/Note/base_use1.md)
+- [基础-增删改查](https://github.com/KissMyLady/MySQL/blob/master/Note/add_del_change_select.md)
+- [数据库备份与恢复](https://github.com/KissMyLady/MySQL/blob/master/Note/backup_and_restore.md)
+- [数据库规范与设计](https://github.com/KissMyLady/MySQL/blob/master/Note/design_databases.md)
+- [返回主页](https://github.com/KissMyLady/MySQL)
