@@ -1,7 +1,6 @@
 数据库的基本使用  
 ====
 ## 数据库安装  
-### 服务器端安装
 1、安装Mysql服务器   
 ```Linux
 sudo apt-get install mysql-server
