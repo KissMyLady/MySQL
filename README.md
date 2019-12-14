@@ -34,6 +34,9 @@ MySQL数据库
 - [MySQL账户管理](https://github.com/KissMyLady/MySQL/blob/master/Note/count_control.md)   
 - [MySQL主从](https://github.com/KissMyLady/MySQL/blob/master/Note/main_and_slave.md)  
 
+## 其  他  
+- [忘记密码]()   
+
 ### 排版  
 
 [GitHub排版教程](https://github.com/KissMyLady/MySQL/blob/master/Note/typesetting.md)  
