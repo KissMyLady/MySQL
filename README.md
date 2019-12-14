@@ -35,7 +35,7 @@ MySQL数据库
 - [MySQL主从](https://github.com/KissMyLady/MySQL/blob/master/Note/main_and_slave.md)  
 
 ## 其  他  
-- [忘记密码]()   
+- [忘记密码](https://github.com/KissMyLady/MySQL/blob/master/Note/FORGET_PASSWORD.md)   
 
 ### 排版  
 
