@@ -8,13 +8,13 @@
 ```Linux
 sudo cat /etc/mysql/debian.cnf 
 user = debian-sys-maint
-userpasswod = xxxx
+userpasswod = 18DDMbQpdmr0cnfU
 ```
 
 
 ## 于  是
 ```Linux
-：mysql -udebian-sys-maint -pxxxx
+mysql -udebian-sys-maint -p18DDMbQpdmr0cnfU   
 ```
 
 
