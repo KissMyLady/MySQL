@@ -1,6 +1,78 @@
 MySQL主从同步配置  
 ====
 
+
+## 常用命令  　　
+配置文件地址：　　
+```Linux
+cd /etc/mysql/mysql.conf.d
+sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+```
+刷新权限：　　
+```Linux
+flush privileges;
+stop slave;
+```
+修改日志文件:　 　　  
+```Linux
+sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+```
+监听日志:   　　
+```Linux
+sudo tail -f /var/log/mysql/mysql.log
+sudo cat /var/log/mysql/mysql.log
+```
+监听错误日志:  　　
+```Linux
+sudo tail -f //var/log/mysql/error.log
+vi /var/log/mysql/error.log
+```
+备 份：　　    
+```Linux
+mysqldump -uroot -pmysql --all-databases --lock-all-tables > ~/master_db.sql
+```
+恢 复：　　  
+```Linux
+mysql –uroot –pmysql < master_db.sql
+```
+
+## 在主服务器上创建账户命令 　       
+```Linux  　
+创建账户:                   所有数据库里的所有表
+grant replication SLAVE ON *.* TO 'slave_ABC'@'%' identified by 'slave_ABC';
+刷新命令   
+FLUSH PRIVILEGES;　
+```
+
+
+## 主--MASTER   
+显示主服务器信息   　　 
+```Linux　　　
+show master status;　　
++------------------+----------+--------------+------------------+-------------------+
+| File             | Position | Binlog_Do_DB | Binlog_Ignore_DB | Executed_Gtid_Set |
++------------------+----------+--------------+------------------+-------------------+
+| mysql-bin.000005 |      590 |              |                  |                   |
++------------------+----------+--------------+------------------+-------------------
+1 row in set (0.00 sec)　　　
+```
+
+### 从服务器连接到主服务器:      
+ ```Linux　　
+change master to 　
+	  master_host='10.211.55.5', 　　
+	  master_user='slave', 
+	  master_password='slave',
+  	master_log_file='mysql-bin.000005', 
+  	master_log_pos=590;
+
+show slave status \G;  
+show master status;
+sudo service mysql restart
+mysql -uroot -p
+```
+
+
 ## 1. 主从同步的定义  
 主从同步使得数据可以从一个数据库服务器复制到其他服务器上，在复制数据时，一个服务器充当主服务器（master），  
 其余的服务器充当从服务器（slave）。因为复制是异步进行的，所以从服务器不需要一直连接着主服务器，  
@@ -77,6 +149,10 @@ mysqldump -uroot -pmysql --all-databases --lock-all-tables > ~/master_db.sql
 ```SQL
 mysql –uroot –pmysql < master_db.sql
 ```
+
+
+## 其他又情链接  
+- [MYSQL官方文档](https://dev.mysql.com/doc/refman/8.0/en/change-master-to.html)
 
 
 
