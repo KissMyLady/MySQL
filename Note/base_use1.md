@@ -18,37 +18,6 @@ sudo service mysql restart
 sudo apt-get install mysql-client
 ```
 
-## 特点  
-> 开源 免费 好用 不要钱 使用范围广 
-
-## RDBMS    
-![12](https://github.com/KissMyLady/MySQL/blob/master/Img/mysql_structure.jpg)
-> Relational Database Management System  
-- 当前主要使用两种类型的数据库：关系型数据库、非关系型数据库，我们主要讨论关系型数据库，对于非关系型数据库,请看后面介绍
-- 所谓的关系型数据库RDBMS，是建立在关系模型基础上的数据库，借助于集合代数等数学概念和方法来处理数据库中的数据
-
-- 查看数据库排名:https://db-engines.com/en/ranking
-
-* 关系型数据库的主要产品：  
-    * oracle：在以前的大型项目中使用,银行,电信等项目  
-     * mysql：web时代使用最广泛的关系型数据库  
-    * ms sql server：在微软的项目中使用  
-    * sqlite：轻量级数据库，主要应用在移动平台  
-
-### SQL语句主要构成  
-* DQL：数据查询语言，用于对数据进行查询，如select  
-* DML：数据操作语言，对数据进行增加、修改、删除，如insert、udpate、delete  
-* TPL：事务处理语言，对事务进行处理，包括begin transaction、commit、rollback  
-* DCL：数据控制语言，进行授权与权限回收，如grant、revoke  
-* DDL：数据定义语言，进行数据库、表的管理等，如create、drop  
-* CCL：指针控制语言，通过控制指针完成表的操作，如declare cursor  
-
-## 先来个小目标  
-- 熟练编写，增删改查  
-- 在Python中操作数据库  
-## 总 结  
-![databases_summary](https://github.com/KissMyLady/MySQL/blob/master/Img/databases_summary.png)
-
 都坐下，基本操作    
 ====
 ## 命令行连接  
@@ -192,8 +161,34 @@ show create table 表名;
 例：
 show create table classes;
 ```
+
+## 特点  
+> 开源 免费 好用 不要钱 使用范围广 
+
+## RDBMS    
+![12](https://github.com/KissMyLady/MySQL/blob/master/Img/mysql_structure.jpg)
+> Relational Database Management System  
+- 当前主要使用两种类型的数据库：关系型数据库、非关系型数据库，我们主要讨论关系型数据库，对于非关系型数据库,请看后面介绍
+- 所谓的关系型数据库RDBMS，是建立在关系模型基础上的数据库，借助于集合代数等数学概念和方法来处理数据库中的数据
+- 查看数据库排名:https://db-engines.com/en/ranking
+* 关系型数据库的主要产品：  
+    * oracle：在以前的大型项目中使用,银行,电信等项目  
+     * mysql：web时代使用最广泛的关系型数据库  
+    * ms sql server：在微软的项目中使用  
+    * sqlite：轻量级数据库，主要应用在移动平台  
+
+### SQL语句主要构成  
+* DQL：数据查询语言，用于对数据进行查询，如select  
+* DML：数据操作语言，对数据进行增加、修改、删除，如insert、udpate、delete  
+* TPL：事务处理语言，对事务进行处理，包括begin transaction、commit、rollback  
+* DCL：数据控制语言，进行授权与权限回收，如grant、revoke  
+* DDL：数据定义语言，进行数据库、表的管理等，如create、drop  
+* CCL：指针控制语言，通过控制指针完成表的操作，如declare cursor  
+
 ## 总 结  
 ![databases_commed](https://github.com/KissMyLady/MySQL/blob/master/Img/databases_commed.png)  
+![databases_summary](https://github.com/KissMyLady/MySQL/blob/master/Img/databases_summary.png)
+
 
 ## 看完了  
 - [数据库的基本使用](https://github.com/KissMyLady/MySQL/edit/master/Note/base_use1.md)
