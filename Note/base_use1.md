@@ -28,7 +28,7 @@ mysql -uroot -p
 回车后输入密码，当前设置的密码为mysql
 ```
 最新的Ubuntu18.04安装最新的MySQL是没有密码设置选项的     
-需要root账户, 进如数据查看账户密码并修改    
+需要root账户, 进入mysql配置文件查看账户密码并修改    
 [点击进入--如何重置密码](https://github.com/KissMyLady/MySQL/blob/master/Note/FORGET_PASSWORD.md)  
 
 ## 退出登录  
