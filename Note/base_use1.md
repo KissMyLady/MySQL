@@ -197,4 +197,4 @@ show create table classes;
 - [数据库规范与设计](https://github.com/KissMyLady/MySQL/blob/master/Note/design_databases.md)
 - [返回主页](https://github.com/KissMyLady/MySQL)
 
-有情链接 - [MySQL官方网站](https://www.mysql.com/)  
+友情链接 - [MySQL官方网站](https://www.mysql.com/)  
