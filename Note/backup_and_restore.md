@@ -1,6 +1,6 @@
 备份与恢复  
 ====
-数据全部导:     
+数据全部导出:     
 ```sql
 mysqldump -uroot -pmysql --all-databases --lock-all-tables > ~/master_db.sql
 ```
