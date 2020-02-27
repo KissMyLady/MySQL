@@ -1,7 +1,19 @@
 备份与恢复  
 ====
+数据全部导:     
+```sql
+mysqldump -uroot -pmysql --all-databases --lock-all-tables > ~/master_db.sql
+```
+数据全部导出实例2:       
+```sql
+mysqldump -uroot -pPASSWORD --all-databases --lock-all-tables > /home/master_db.sql
+```
+导 入:  
+```sql
+mysql –uroot –pPASSWORD < master_db.sql
+```
 
-## 备份  
+### 备份  
 - 运行mysqldump命令  
 ```SQL
 mysqldump –uroot –p 数据库名 > python.sql;  
